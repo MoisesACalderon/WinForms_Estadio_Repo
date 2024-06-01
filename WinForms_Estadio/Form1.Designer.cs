@@ -30,18 +30,17 @@
         {
             label1 = new Label();
             btnproximospartidos = new Button();
-            btnReservarEntradas = new Button();
+            btnreservarentradas = new Button();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.BackColor = SystemColors.Info;
-            label1.BorderStyle = BorderStyle.FixedSingle;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(303, 263);
+            label1.Location = new Point(303, 250);
             label1.Name = "label1";
-            label1.Size = new Size(197, 33);
+            label1.Size = new Size(195, 31);
             label1.TabIndex = 0;
             label1.Text = "¿QUE BUSCAS?";
             label1.Click += label1_Click;
@@ -59,25 +58,25 @@
             btnproximospartidos.UseVisualStyleBackColor = false;
             btnproximospartidos.Click += btnproximospartidos_Click;
             // 
-            // btnReservarEntradas
+            // btnreservarentradas
             // 
-            btnReservarEntradas.BackColor = SystemColors.ActiveCaption;
-            btnReservarEntradas.FlatStyle = FlatStyle.Flat;
-            btnReservarEntradas.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnReservarEntradas.Location = new Point(67, 367);
-            btnReservarEntradas.Name = "btnReservarEntradas";
-            btnReservarEntradas.Size = new Size(669, 54);
-            btnReservarEntradas.TabIndex = 2;
-            btnReservarEntradas.Text = "Reservar entradas";
-            btnReservarEntradas.UseVisualStyleBackColor = false;
-            btnReservarEntradas.Click += btnReservarEntradas_Click;
+            btnreservarentradas.BackColor = SystemColors.ActiveCaption;
+            btnreservarentradas.FlatStyle = FlatStyle.Flat;
+            btnreservarentradas.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnreservarentradas.Location = new Point(67, 367);
+            btnreservarentradas.Name = "btnreservarentradas";
+            btnreservarentradas.Size = new Size(669, 54);
+            btnreservarentradas.TabIndex = 2;
+            btnreservarentradas.Text = "Reservar entradas";
+            btnreservarentradas.UseVisualStyleBackColor = false;
+            btnreservarentradas.Click += btnReservarEntradas_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(btnReservarEntradas);
+            Controls.Add(btnreservarentradas);
             Controls.Add(btnproximospartidos);
             Controls.Add(label1);
             ForeColor = SystemColors.ActiveCaptionText;
@@ -92,6 +91,6 @@
 
         private Label label1;
         private Button btnproximospartidos;
-        private Button btnReservarEntradas;
+        private Button btnreservarentradas;
     }
 }

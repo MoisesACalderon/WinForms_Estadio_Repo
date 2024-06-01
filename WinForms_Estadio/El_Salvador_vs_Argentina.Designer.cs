@@ -110,6 +110,7 @@
             Controls.Add(label1);
             Name = "El_Salvador_vs_Argentina";
             Text = "El_Salvador_vs_Argentina";
+            Load += El_Salvador_vs_Argentina_Load;
             ResumeLayout(false);
             PerformLayout();
         }

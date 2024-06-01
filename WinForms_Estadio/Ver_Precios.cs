@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,6 +17,8 @@ namespace WinForms_Estadio
         {
             InitializeComponent();
             rellenartabla2();
+
+            RoundButton(btnregresar, 20);
         }
 
         private void Ver_Precios_Load(object sender, EventArgs e)
@@ -64,10 +67,25 @@ namespace WinForms_Estadio
 
         private void btnregresar_Click(object sender, EventArgs e)
         {
-            Reservar_Entradas ventana2 = new Reservar_Entradas();
+            El_Salvador_vs_Argentina ventana2 = new El_Salvador_vs_Argentina();
             ventana2.Show();
 
             this.Hide();
+        }
+        private void RoundButton(Button button, int radio)
+        {
+            GraphicsPath path = new GraphicsPath();
+            Rectangle rect = button.ClientRectangle;
+
+            path.AddArc(rect.X, rect.Y, radio * 2, radio * 2, 180, 90);
+            path.AddArc(rect.Width - radio * 2, rect.Y, radio * 2, radio * 2, 270, 90);
+            path.AddArc(rect.Width - radio * 2, rect.Height - radio * 2, radio * 2, radio * 2, 0, 90);
+            path.AddArc(rect.X, rect.Height - radio * 2, radio * 2, radio * 2, 90, 90);
+            path.CloseAllFigures();
+
+            button.Region = new Region(path);
+            button.FlatStyle = FlatStyle.Flat;
+            button.FlatAppearance.BorderSize = 0;
         }
     }
 }
