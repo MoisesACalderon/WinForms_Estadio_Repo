@@ -68,5 +68,12 @@ namespace WinForms_Estadio
             button.FlatStyle = FlatStyle.Flat;
             button.FlatAppearance.BorderSize = 0;
         }
+
+        private void btncomprarentradas_Click(object sender, EventArgs e)
+        {
+            menuZonas menuZonas = new menuZonas();
+            menuZonas.Show();
+            this.Hide();
+        }
     }
 }
