@@ -19,6 +19,8 @@ namespace WinForms_Estadio
             rellenartabla2();
 
             RoundButton(btnregresar, 20);
+
+            btnregresar.BackColor = Colores.MintGreen;
         }
 
         private void Ver_Precios_Load(object sender, EventArgs e)

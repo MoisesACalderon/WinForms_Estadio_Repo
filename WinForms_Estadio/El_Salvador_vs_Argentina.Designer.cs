@@ -38,12 +38,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.BackColor = SystemColors.Info;
-            label1.BorderStyle = BorderStyle.FixedSingle;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(106, 53);
+            label1.Location = new Point(106, 59);
             label1.Name = "label1";
-            label1.Size = new Size(574, 33);
+            label1.Size = new Size(572, 31);
             label1.TabIndex = 2;
             label1.Text = "El Salvador vs Argentina  |  13/6/24  |  18:30";
             label1.Click += label1_Click;
@@ -53,7 +52,7 @@
             btnverprecios.BackColor = SystemColors.ActiveCaption;
             btnverprecios.FlatStyle = FlatStyle.Flat;
             btnverprecios.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnverprecios.Location = new Point(61, 162);
+            btnverprecios.Location = new Point(61, 148);
             btnverprecios.Name = "btnverprecios";
             btnverprecios.Size = new Size(669, 54);
             btnverprecios.TabIndex = 3;
@@ -66,7 +65,7 @@
             btncomprarentradas.BackColor = SystemColors.ActiveCaption;
             btncomprarentradas.FlatStyle = FlatStyle.Flat;
             btncomprarentradas.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btncomprarentradas.Location = new Point(61, 223);
+            btncomprarentradas.Location = new Point(61, 209);
             btncomprarentradas.Name = "btncomprarentradas";
             btncomprarentradas.Size = new Size(669, 54);
             btncomprarentradas.TabIndex = 4;
@@ -78,7 +77,7 @@
             btnverificarentradas.BackColor = SystemColors.ActiveCaption;
             btnverificarentradas.FlatStyle = FlatStyle.Flat;
             btnverificarentradas.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnverificarentradas.Location = new Point(61, 283);
+            btnverificarentradas.Location = new Point(61, 269);
             btnverificarentradas.Name = "btnverificarentradas";
             btnverificarentradas.Size = new Size(669, 54);
             btnverificarentradas.TabIndex = 5;
@@ -90,7 +89,7 @@
             btnregresar.BackColor = SystemColors.ActiveCaption;
             btnregresar.FlatStyle = FlatStyle.Flat;
             btnregresar.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnregresar.Location = new Point(61, 343);
+            btnregresar.Location = new Point(61, 329);
             btnregresar.Name = "btnregresar";
             btnregresar.Size = new Size(669, 54);
             btnregresar.TabIndex = 6;

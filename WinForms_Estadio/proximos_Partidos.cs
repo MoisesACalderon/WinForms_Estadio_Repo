@@ -19,6 +19,8 @@ namespace WinForms_Estadio
             rellenartabla();
 
             RoundButton(btnregresar, 20);
+
+            btnregresar.BackColor = Colores.MintGreen;
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

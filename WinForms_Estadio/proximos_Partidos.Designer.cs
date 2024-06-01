@@ -58,7 +58,7 @@
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5, Column6 });
             dataGridView1.EnableHeadersVisualStyles = false;
-            dataGridView1.Location = new Point(34, 212);
+            dataGridView1.Location = new Point(34, 207);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersVisible = false;
             dataGridView1.RowHeadersWidth = 51;
@@ -124,12 +124,11 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.BackColor = SystemColors.Info;
-            label2.BorderStyle = BorderStyle.FixedSingle;
+            label2.BackColor = Color.Transparent;
             label2.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.Location = new Point(256, 112);
             label2.Name = "label2";
-            label2.Size = new Size(409, 33);
+            label2.Size = new Size(407, 31);
             label2.TabIndex = 3;
             label2.Text = "Estos son los proximos partidos";
             label2.Click += label2_Click;

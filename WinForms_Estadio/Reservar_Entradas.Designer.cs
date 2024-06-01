@@ -36,12 +36,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.BackColor = SystemColors.Info;
-            label1.BorderStyle = BorderStyle.FixedSingle;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(315, 61);
+            label1.Location = new Point(315, 102);
             label1.Name = "label1";
-            label1.Size = new Size(144, 33);
+            label1.Size = new Size(142, 31);
             label1.TabIndex = 1;
             label1.Text = "ENTRADAS";
             // 
@@ -50,7 +49,7 @@
             btnelsalvadorvsargentina.BackColor = SystemColors.ActiveCaption;
             btnelsalvadorvsargentina.FlatStyle = FlatStyle.Flat;
             btnelsalvadorvsargentina.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnelsalvadorvsargentina.Location = new Point(61, 197);
+            btnelsalvadorvsargentina.Location = new Point(61, 193);
             btnelsalvadorvsargentina.Name = "btnelsalvadorvsargentina";
             btnelsalvadorvsargentina.Size = new Size(669, 54);
             btnelsalvadorvsargentina.TabIndex = 2;
@@ -63,7 +62,7 @@
             btnregresar.BackColor = SystemColors.ActiveCaption;
             btnregresar.FlatStyle = FlatStyle.Flat;
             btnregresar.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnregresar.Location = new Point(61, 258);
+            btnregresar.Location = new Point(61, 254);
             btnregresar.Name = "btnregresar";
             btnregresar.Size = new Size(669, 54);
             btnregresar.TabIndex = 3;

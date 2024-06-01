@@ -21,6 +21,11 @@ namespace WinForms_Estadio
             RoundButton(btncomprarentradas, 20);
             RoundButton(btnverificarentradas, 20);
             RoundButton(btnregresar, 20);
+
+            btnverprecios.BackColor = Colores.SalmonPink;
+            btncomprarentradas.BackColor = Colores.PeachOrange;
+            btnverificarentradas.BackColor = Colores.SkyBlue;
+            btnregresar.BackColor = Colores.MintGreen;
         }
 
         private void label1_Click(object sender, EventArgs e)

@@ -20,6 +20,9 @@ namespace WinForms_Estadio
             RoundButton(btnelsalvadorvsargentina, 20);
             RoundButton(btnregresar, 20);
 
+            btnelsalvadorvsargentina.BackColor = Colores.SkyBlue;
+            btnregresar.BackColor = Colores.MintGreen;
+
         }
 
         private void Reservar_Entradas_Load(object sender, EventArgs e)
