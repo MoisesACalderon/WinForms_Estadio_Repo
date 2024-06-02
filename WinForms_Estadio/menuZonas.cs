@@ -16,12 +16,29 @@ namespace WinForms_Estadio
         public menuZonas()
         {
             InitializeComponent();
-            RoundButton(btnTribunaSur, 20);
-            RoundButton(btnRegresarZ, 20);
 
+            RoundButton(btnregresar, 20);
 
-            btnTribunaSur.BackColor = Colores.MintGreen;
-            btnRegresarZ.BackColor = Colores.SkyBlue;
+            RoundButton(btntribunasur, 20);
+            RoundButton(btntribunanorte, 20);
+            RoundButton(btnpreferentesur, 20);
+            RoundButton(btnpreferentenorte, 20);
+            RoundButton(btnsombrasur, 20);
+            RoundButton(btnsombranorte, 20);
+            RoundButton(btnplateas, 20);
+            RoundButton(btnsolgeneral, 20);
+
+            btnregresar.BackColor = Colores.MintGreen;
+
+            btntribunasur.BackColor = Colores.SkyBlue;
+            btntribunanorte.BackColor = Colores.SkyBlue;
+            btnpreferentesur.BackColor = Colores.PeachOrange;
+            btnpreferentenorte.BackColor = Colores.PeachOrange;
+            btnsombrasur.BackColor = Colores.SalmonPink;
+            btnsombranorte.BackColor = Colores.SalmonPink;
+            btnplateas.BackColor = Colores.SoftLavender;
+            btnsolgeneral.BackColor = Colores.SoftLavender;
+
 
         }
 
@@ -32,9 +49,7 @@ namespace WinForms_Estadio
 
         private void btnTribunaSur_Click(object sender, EventArgs e)
         {
-            AsientosTribunaSur asientosTribunaSur = new AsientosTribunaSur();
-            asientosTribunaSur.Show();
-            this.Hide();
+
         }
 
         private void RoundButton(Button button, int radio)
@@ -55,9 +70,84 @@ namespace WinForms_Estadio
 
         private void btnRegresarZ_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void TituloSeleccion_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btncontinuar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btntribunasur_Click_1(object sender, EventArgs e)
+        {
+            AsientosTribunaSur asientosTribunaSur = new AsientosTribunaSur();
+            asientosTribunaSur.Show();
+            this.Hide();
+        }
+        private void btntribunanorte_Click_1(object sender, EventArgs e)
+        {
+            AsientosTribunaNorte asientosTribunaNorte = new AsientosTribunaNorte();
+            asientosTribunaNorte.Show();
+            this.Hide();
+        }
+        private void btnpreferentesur_Click_1(object sender, EventArgs e)
+        {
+            AsientosPreferenteSur asientosPreferenteSur = new AsientosPreferenteSur();
+            asientosPreferenteSur.Show();
+            this.Hide();
+        }
+        private void btnpreferentenorte_Click_1(object sender, EventArgs e)
+        {
+            AsientosPreferenteNorte asientosPreferenteNorte = new AsientosPreferenteNorte ();
+            asientosPreferenteNorte.Show();
+            this.Hide();
+        }
+        private void btnsolgenerl(object sender, EventArgs e)
+        {
+            AsientosSolGeneral asientosSolGeneral = new AsientosSolGeneral();
+            asientosSolGeneral.Show();
+            this.Hide();
+        }
+        private void btnplatea(object sender, EventArgs e)
+        {
+            AsientosPlatea asientosPlatea = new AsientosPlatea();
+            asientosPlatea.Show();
+            this.Hide();
+        }
+        private void btnsombrasur1(object sender, EventArgs e)
+        {
+            AsientosSombraSur asientosSombraSur = new AsientosSombraSur();
+            asientosSombraSur.Show();
+            this.Hide();
+        }
+        private void btnsombranorte1(object sender, EventArgs e)
+        {
+            AsientosSombraNorte asientosSombraNorte = new AsientosSombraNorte();
+            asientosSombraNorte.Show();
+            this.Hide();
+        }
+
+
+        private void btnregresar_Click(object sender, EventArgs e)
+        {
             El_Salvador_vs_Argentina el_Salvador_Vs_Argentina = new El_Salvador_vs_Argentina();
             el_Salvador_Vs_Argentina.Show();
-            this.Hide();  
+            this.Hide();
+        }
+
+        private void labelfiguralinea_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -37,6 +37,8 @@
             Column4 = new DataGridViewTextBoxColumn();
             label1 = new Label();
             btnregresar = new Button();
+            label2 = new Label();
+            label3 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -109,7 +111,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(105, 52);
+            label1.Location = new Point(105, 34);
             label1.Name = "label1";
             label1.Size = new Size(572, 31);
             label1.TabIndex = 3;
@@ -120,7 +122,7 @@
             btnregresar.BackColor = SystemColors.ActiveCaption;
             btnregresar.FlatStyle = FlatStyle.Flat;
             btnregresar.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnregresar.Location = new Point(61, 357);
+            btnregresar.Location = new Point(61, 375);
             btnregresar.Name = "btnregresar";
             btnregresar.Size = new Size(669, 54);
             btnregresar.TabIndex = 4;
@@ -128,11 +130,35 @@
             btnregresar.UseVisualStyleBackColor = false;
             btnregresar.Click += btnregresar_Click;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(61, 65);
+            label2.Name = "label2";
+            label2.Size = new Size(686, 31);
+            label2.TabIndex = 47;
+            label2.Text = "________________________________________________";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Location = new Point(61, 334);
+            label3.Name = "label3";
+            label3.Size = new Size(686, 31);
+            label3.TabIndex = 48;
+            label3.Text = "________________________________________________";
+            // 
             // Ver_Precios
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label3);
+            Controls.Add(label2);
             Controls.Add(btnregresar);
             Controls.Add(label1);
             Controls.Add(dataGridView1);
@@ -153,5 +179,7 @@
         private DataGridViewTextBoxColumn Column3;
         private DataGridViewTextBoxColumn Column4;
         private Button btnregresar;
+        private Label label2;
+        private Label label3;
     }
 }

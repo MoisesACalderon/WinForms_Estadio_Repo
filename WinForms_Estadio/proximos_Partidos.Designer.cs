@@ -38,6 +38,8 @@
             Column6 = new DataGridViewTextBoxColumn();
             btnregresar = new Button();
             label2 = new Label();
+            label1 = new Label();
+            label3 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -58,7 +60,7 @@
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5, Column6 });
             dataGridView1.EnableHeadersVisualStyles = false;
-            dataGridView1.Location = new Point(34, 207);
+            dataGridView1.Location = new Point(34, 180);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersVisible = false;
             dataGridView1.RowHeadersWidth = 51;
@@ -113,7 +115,7 @@
             btnregresar.BackColor = SystemColors.ActiveCaption;
             btnregresar.FlatStyle = FlatStyle.Flat;
             btnregresar.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnregresar.Location = new Point(110, 352);
+            btnregresar.Location = new Point(110, 379);
             btnregresar.Name = "btnregresar";
             btnregresar.Size = new Size(669, 54);
             btnregresar.TabIndex = 2;
@@ -126,18 +128,42 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(256, 112);
+            label2.Location = new Point(256, 55);
             label2.Name = "label2";
             label2.Size = new Size(407, 31);
             label2.TabIndex = 3;
             label2.Text = "Estos son los proximos partidos";
             label2.Click += label2_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(110, 90);
+            label1.Name = "label1";
+            label1.Size = new Size(686, 31);
+            label1.TabIndex = 47;
+            label1.Text = "________________________________________________";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Location = new Point(110, 326);
+            label3.Name = "label3";
+            label3.Size = new Size(686, 31);
+            label3.TabIndex = 48;
+            label3.Text = "________________________________________________";
+            // 
             // proximos_Partidos
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(928, 497);
+            Controls.Add(label3);
+            Controls.Add(label1);
             Controls.Add(label2);
             Controls.Add(btnregresar);
             Controls.Add(dataGridView1);
@@ -160,5 +186,7 @@
         private DataGridViewTextBoxColumn Column6;
         private Button btnregresar;
         private Label label2;
+        private Label label1;
+        private Label label3;
     }
 }

@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace WinForms_Estadio
 {
-    public partial class AsientosTribunaSur : Form
+    public partial class AsientosTribunaNorte : Form
     {
-        public AsientosTribunaSur()
+        public AsientosTribunaNorte()
         {
             InitializeComponent();
             RoundButton(btnRegresarSS, 20);
@@ -156,10 +156,6 @@ namespace WinForms_Estadio
             this.Hide();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void label3_Click(object sender, EventArgs e)
         {
@@ -170,6 +166,14 @@ namespace WinForms_Estadio
         {
 
         }
-    }
+        private void AsientosTribunaNorte_Load(object sender, EventArgs e)
+        {
 
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

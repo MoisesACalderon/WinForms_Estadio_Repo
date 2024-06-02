@@ -31,6 +31,7 @@
             label1 = new Label();
             btnproximospartidos = new Button();
             btnreservarentradas = new Button();
+            label2 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -38,7 +39,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(303, 250);
+            label1.Location = new Point(303, 239);
             label1.Name = "label1";
             label1.Size = new Size(195, 31);
             label1.TabIndex = 0;
@@ -50,7 +51,7 @@
             btnproximospartidos.BackColor = SystemColors.ActiveCaption;
             btnproximospartidos.FlatStyle = FlatStyle.Flat;
             btnproximospartidos.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnproximospartidos.Location = new Point(67, 307);
+            btnproximospartidos.Location = new Point(56, 307);
             btnproximospartidos.Name = "btnproximospartidos";
             btnproximospartidos.Size = new Size(669, 54);
             btnproximospartidos.TabIndex = 1;
@@ -63,7 +64,7 @@
             btnreservarentradas.BackColor = SystemColors.ActiveCaption;
             btnreservarentradas.FlatStyle = FlatStyle.Flat;
             btnreservarentradas.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnreservarentradas.Location = new Point(67, 367);
+            btnreservarentradas.Location = new Point(56, 367);
             btnreservarentradas.Name = "btnreservarentradas";
             btnreservarentradas.Size = new Size(669, 54);
             btnreservarentradas.TabIndex = 2;
@@ -71,11 +72,23 @@
             btnreservarentradas.UseVisualStyleBackColor = false;
             btnreservarentradas.Click += btnReservarEntradas_Click;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(50, 270);
+            label2.Name = "label2";
+            label2.Size = new Size(686, 31);
+            label2.TabIndex = 47;
+            label2.Text = "________________________________________________";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label2);
             Controls.Add(btnreservarentradas);
             Controls.Add(btnproximospartidos);
             Controls.Add(label1);
@@ -92,5 +105,6 @@
         private Label label1;
         private Button btnproximospartidos;
         private Button btnreservarentradas;
+        private Label label2;
     }
 }

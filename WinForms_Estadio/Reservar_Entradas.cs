@@ -60,5 +60,10 @@ namespace WinForms_Estadio
             button.FlatStyle = FlatStyle.Flat;
             button.FlatAppearance.BorderSize = 0;
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
