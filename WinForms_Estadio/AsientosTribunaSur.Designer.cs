@@ -73,10 +73,9 @@
             asiento0.FlatAppearance.BorderSize = 3;
             asiento0.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 255, 255);
             asiento0.ForeColor = SystemColors.ControlText;
-            asiento0.Location = new Point(145, 198);
-            asiento0.Margin = new Padding(3, 4, 3, 4);
+            asiento0.Location = new Point(127, 148);
             asiento0.Name = "asiento0";
-            asiento0.Size = new Size(55, 56);
+            asiento0.Size = new Size(48, 42);
             asiento0.TabIndex = 0;
             asiento0.Text = "[ 0 ]";
             asiento0.UseVisualStyleBackColor = true;
@@ -89,10 +88,9 @@
             asiento1.FlatAppearance.BorderSize = 3;
             asiento1.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 255, 255);
             asiento1.ForeColor = SystemColors.ControlText;
-            asiento1.Location = new Point(241, 198);
-            asiento1.Margin = new Padding(3, 4, 3, 4);
+            asiento1.Location = new Point(211, 148);
             asiento1.Name = "asiento1";
-            asiento1.Size = new Size(53, 56);
+            asiento1.Size = new Size(46, 42);
             asiento1.TabIndex = 1;
             asiento1.Text = "[ 1 ]";
             asiento1.UseVisualStyleBackColor = true;
@@ -105,10 +103,9 @@
             asiento2.FlatAppearance.BorderSize = 3;
             asiento2.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 255, 255);
             asiento2.ForeColor = SystemColors.ControlText;
-            asiento2.Location = new Point(349, 198);
-            asiento2.Margin = new Padding(3, 4, 3, 4);
+            asiento2.Location = new Point(305, 148);
             asiento2.Name = "asiento2";
-            asiento2.Size = new Size(53, 56);
+            asiento2.Size = new Size(46, 42);
             asiento2.TabIndex = 2;
             asiento2.Text = "[ 2 ]";
             asiento2.UseVisualStyleBackColor = true;
@@ -121,10 +118,9 @@
             asiento3.FlatAppearance.BorderSize = 3;
             asiento3.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 255, 255);
             asiento3.ForeColor = SystemColors.ControlText;
-            asiento3.Location = new Point(443, 198);
-            asiento3.Margin = new Padding(3, 4, 3, 4);
+            asiento3.Location = new Point(388, 148);
             asiento3.Name = "asiento3";
-            asiento3.Size = new Size(53, 56);
+            asiento3.Size = new Size(46, 42);
             asiento3.TabIndex = 3;
             asiento3.Text = "[ 3 ]";
             asiento3.UseVisualStyleBackColor = true;
@@ -137,10 +133,9 @@
             asiento4.FlatAppearance.BorderSize = 3;
             asiento4.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 255, 255);
             asiento4.ForeColor = SystemColors.ControlText;
-            asiento4.Location = new Point(545, 198);
-            asiento4.Margin = new Padding(3, 4, 3, 4);
+            asiento4.Location = new Point(477, 148);
             asiento4.Name = "asiento4";
-            asiento4.Size = new Size(53, 56);
+            asiento4.Size = new Size(46, 42);
             asiento4.TabIndex = 4;
             asiento4.Text = "[ 4 ]";
             asiento4.UseVisualStyleBackColor = true;
@@ -153,10 +148,9 @@
             asiento9.FlatAppearance.BorderSize = 3;
             asiento9.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 255, 255);
             asiento9.ForeColor = SystemColors.ControlText;
-            asiento9.Location = new Point(531, 264);
-            asiento9.Margin = new Padding(3, 4, 3, 4);
+            asiento9.Location = new Point(465, 198);
             asiento9.Name = "asiento9";
-            asiento9.Size = new Size(53, 56);
+            asiento9.Size = new Size(46, 42);
             asiento9.TabIndex = 9;
             asiento9.Text = "[ 9]";
             asiento9.UseVisualStyleBackColor = true;
@@ -169,10 +163,9 @@
             asiento8.FlatAppearance.BorderSize = 3;
             asiento8.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 255, 255);
             asiento8.ForeColor = SystemColors.ControlText;
-            asiento8.Location = new Point(440, 264);
-            asiento8.Margin = new Padding(3, 4, 3, 4);
+            asiento8.Location = new Point(385, 198);
             asiento8.Name = "asiento8";
-            asiento8.Size = new Size(53, 56);
+            asiento8.Size = new Size(46, 42);
             asiento8.TabIndex = 8;
             asiento8.Text = "[ 8 ]";
             asiento8.UseVisualStyleBackColor = true;
@@ -185,10 +178,9 @@
             asiento7.FlatAppearance.BorderSize = 3;
             asiento7.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 255, 255);
             asiento7.ForeColor = SystemColors.ControlText;
-            asiento7.Location = new Point(348, 264);
-            asiento7.Margin = new Padding(3, 4, 3, 4);
+            asiento7.Location = new Point(304, 198);
             asiento7.Name = "asiento7";
-            asiento7.Size = new Size(53, 56);
+            asiento7.Size = new Size(46, 42);
             asiento7.TabIndex = 7;
             asiento7.Text = "[ 7 ]";
             asiento7.UseVisualStyleBackColor = true;
@@ -201,10 +193,9 @@
             asiento6.FlatAppearance.BorderSize = 3;
             asiento6.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 255, 255);
             asiento6.ForeColor = SystemColors.ControlText;
-            asiento6.Location = new Point(252, 264);
-            asiento6.Margin = new Padding(3, 4, 3, 4);
+            asiento6.Location = new Point(220, 198);
             asiento6.Name = "asiento6";
-            asiento6.Size = new Size(53, 56);
+            asiento6.Size = new Size(46, 42);
             asiento6.TabIndex = 6;
             asiento6.Text = "[ 6 ]";
             asiento6.UseVisualStyleBackColor = true;
@@ -217,10 +208,9 @@
             asiento5.FlatAppearance.BorderSize = 3;
             asiento5.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 255, 255);
             asiento5.ForeColor = SystemColors.ControlText;
-            asiento5.Location = new Point(157, 264);
-            asiento5.Margin = new Padding(3, 4, 3, 4);
+            asiento5.Location = new Point(137, 198);
             asiento5.Name = "asiento5";
-            asiento5.Size = new Size(55, 56);
+            asiento5.Size = new Size(48, 42);
             asiento5.TabIndex = 5;
             asiento5.Text = "[ 5 ]";
             asiento5.UseVisualStyleBackColor = true;
@@ -233,10 +223,9 @@
             asiento14.FlatAppearance.BorderSize = 3;
             asiento14.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 255, 255);
             asiento14.ForeColor = SystemColors.ControlText;
-            asiento14.Location = new Point(517, 326);
-            asiento14.Margin = new Padding(3, 4, 3, 4);
+            asiento14.Location = new Point(452, 244);
             asiento14.Name = "asiento14";
-            asiento14.Size = new Size(53, 56);
+            asiento14.Size = new Size(46, 42);
             asiento14.TabIndex = 14;
             asiento14.Text = "[ 14 ]";
             asiento14.UseVisualStyleBackColor = true;
@@ -249,10 +238,9 @@
             asiento13.FlatAppearance.BorderSize = 3;
             asiento13.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 255, 255);
             asiento13.ForeColor = SystemColors.ControlText;
-            asiento13.Location = new Point(433, 326);
-            asiento13.Margin = new Padding(3, 4, 3, 4);
+            asiento13.Location = new Point(379, 244);
             asiento13.Name = "asiento13";
-            asiento13.Size = new Size(53, 56);
+            asiento13.Size = new Size(46, 42);
             asiento13.TabIndex = 13;
             asiento13.Text = "[ 13 ]";
             asiento13.UseVisualStyleBackColor = true;
@@ -265,10 +253,9 @@
             asiento12.FlatAppearance.BorderSize = 3;
             asiento12.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 255, 255);
             asiento12.ForeColor = SystemColors.ControlText;
-            asiento12.Location = new Point(347, 326);
-            asiento12.Margin = new Padding(3, 4, 3, 4);
+            asiento12.Location = new Point(304, 244);
             asiento12.Name = "asiento12";
-            asiento12.Size = new Size(53, 56);
+            asiento12.Size = new Size(46, 42);
             asiento12.TabIndex = 12;
             asiento12.Text = "[ 12 ]";
             asiento12.UseVisualStyleBackColor = true;
@@ -281,10 +268,9 @@
             asiento11.FlatAppearance.BorderSize = 3;
             asiento11.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 255, 255);
             asiento11.ForeColor = SystemColors.ControlText;
-            asiento11.Location = new Point(261, 326);
-            asiento11.Margin = new Padding(3, 4, 3, 4);
+            asiento11.Location = new Point(228, 244);
             asiento11.Name = "asiento11";
-            asiento11.Size = new Size(53, 56);
+            asiento11.Size = new Size(46, 42);
             asiento11.TabIndex = 11;
             asiento11.Text = "[ 11 ]";
             asiento11.UseVisualStyleBackColor = true;
@@ -297,10 +283,9 @@
             asiento10.FlatAppearance.BorderSize = 3;
             asiento10.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 255, 255);
             asiento10.ForeColor = SystemColors.ControlText;
-            asiento10.Location = new Point(171, 326);
-            asiento10.Margin = new Padding(3, 4, 3, 4);
+            asiento10.Location = new Point(150, 244);
             asiento10.Name = "asiento10";
-            asiento10.Size = new Size(55, 56);
+            asiento10.Size = new Size(48, 42);
             asiento10.TabIndex = 10;
             asiento10.Text = "[ 10 ]";
             asiento10.UseVisualStyleBackColor = true;
@@ -314,10 +299,9 @@
             asiento19.FlatAppearance.BorderSize = 3;
             asiento19.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 255, 255);
             asiento19.ForeColor = SystemColors.ControlText;
-            asiento19.Location = new Point(507, 391);
-            asiento19.Margin = new Padding(3, 4, 3, 4);
+            asiento19.Location = new Point(444, 293);
             asiento19.Name = "asiento19";
-            asiento19.Size = new Size(53, 56);
+            asiento19.Size = new Size(46, 42);
             asiento19.TabIndex = 19;
             asiento19.Text = "[ 19 ]";
             asiento19.UseVisualStyleBackColor = false;
@@ -331,10 +315,9 @@
             asiento18.FlatAppearance.BorderSize = 3;
             asiento18.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 255, 255);
             asiento18.ForeColor = SystemColors.ControlText;
-            asiento18.Location = new Point(428, 391);
-            asiento18.Margin = new Padding(3, 4, 3, 4);
+            asiento18.Location = new Point(374, 293);
             asiento18.Name = "asiento18";
-            asiento18.Size = new Size(53, 56);
+            asiento18.Size = new Size(46, 42);
             asiento18.TabIndex = 18;
             asiento18.Text = "[ 18 ]";
             asiento18.UseVisualStyleBackColor = false;
@@ -348,10 +331,9 @@
             asiento17.FlatAppearance.BorderSize = 3;
             asiento17.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 255, 255);
             asiento17.ForeColor = SystemColors.ControlText;
-            asiento17.Location = new Point(347, 392);
-            asiento17.Margin = new Padding(3, 4, 3, 4);
+            asiento17.Location = new Point(304, 294);
             asiento17.Name = "asiento17";
-            asiento17.Size = new Size(53, 56);
+            asiento17.Size = new Size(46, 42);
             asiento17.TabIndex = 17;
             asiento17.Text = "[ 17 ]";
             asiento17.UseVisualStyleBackColor = false;
@@ -365,10 +347,9 @@
             asiento16.FlatAppearance.BorderSize = 3;
             asiento16.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 255, 255);
             asiento16.ForeColor = SystemColors.ControlText;
-            asiento16.Location = new Point(269, 391);
-            asiento16.Margin = new Padding(3, 4, 3, 4);
+            asiento16.Location = new Point(235, 293);
             asiento16.Name = "asiento16";
-            asiento16.Size = new Size(53, 56);
+            asiento16.Size = new Size(46, 42);
             asiento16.TabIndex = 16;
             asiento16.Text = "[ 16 ]";
             asiento16.UseVisualStyleBackColor = false;
@@ -382,10 +363,9 @@
             asiento15.FlatAppearance.BorderSize = 3;
             asiento15.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 255, 255);
             asiento15.ForeColor = SystemColors.ActiveCaptionText;
-            asiento15.Location = new Point(182, 390);
-            asiento15.Margin = new Padding(3, 4, 3, 4);
+            asiento15.Location = new Point(159, 292);
             asiento15.Name = "asiento15";
-            asiento15.Size = new Size(55, 56);
+            asiento15.Size = new Size(48, 42);
             asiento15.TabIndex = 15;
             asiento15.Text = "[ 15 ]";
             asiento15.UseVisualStyleBackColor = false;
@@ -394,9 +374,9 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(59, 150);
+            label1.Location = new Point(52, 112);
             label1.Name = "label1";
-            label1.Size = new Size(0, 20);
+            label1.Size = new Size(0, 15);
             label1.TabIndex = 22;
             // 
             // textBox2
@@ -404,11 +384,10 @@
             textBox2.BackColor = Color.White;
             textBox2.BorderStyle = BorderStyle.FixedSingle;
             textBox2.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(73, 112);
-            textBox2.Margin = new Padding(3, 4, 3, 4);
+            textBox2.Location = new Point(64, 84);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(43, 41);
+            textBox2.Size = new Size(38, 31);
             textBox2.TabIndex = 23;
             textBox2.Text = "\r\n";
             // 
@@ -417,11 +396,10 @@
             textBox3.BackColor = SystemColors.ActiveCaption;
             textBox3.BorderStyle = BorderStyle.FixedSingle;
             textBox3.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox3.Location = new Point(488, 112);
-            textBox3.Margin = new Padding(3, 4, 3, 4);
+            textBox3.Location = new Point(427, 84);
             textBox3.Multiline = true;
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(43, 41);
+            textBox3.Size = new Size(38, 31);
             textBox3.TabIndex = 24;
             textBox3.Text = "\r\n";
             // 
@@ -430,11 +408,10 @@
             textBox4.BackColor = Color.YellowGreen;
             textBox4.BorderStyle = BorderStyle.FixedSingle;
             textBox4.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox4.Location = new Point(268, 112);
-            textBox4.Margin = new Padding(3, 4, 3, 4);
+            textBox4.Location = new Point(234, 84);
             textBox4.Multiline = true;
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(43, 41);
+            textBox4.Size = new Size(38, 31);
             textBox4.TabIndex = 25;
             textBox4.Text = "\r\n";
             // 
@@ -447,9 +424,9 @@
             // 
             labelVacio.AutoSize = true;
             labelVacio.Font = new Font("Britannic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelVacio.Location = new Point(123, 125);
+            labelVacio.Location = new Point(108, 94);
             labelVacio.Name = "labelVacio";
-            labelVacio.Size = new Size(63, 22);
+            labelVacio.Size = new Size(50, 17);
             labelVacio.TabIndex = 27;
             labelVacio.Text = ": libre";
             // 
@@ -457,9 +434,9 @@
             // 
             labelComprado.AutoSize = true;
             labelComprado.Font = new Font("Britannic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelComprado.Location = new Point(318, 125);
+            labelComprado.Location = new Point(278, 94);
             labelComprado.Name = "labelComprado";
-            labelComprado.Size = new Size(112, 22);
+            labelComprado.Size = new Size(90, 17);
             labelComprado.TabIndex = 28;
             labelComprado.Text = ": comprado";
             // 
@@ -467,9 +444,9 @@
             // 
             labelDisc.AutoSize = true;
             labelDisc.Font = new Font("Britannic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelDisc.Location = new Point(538, 109);
+            labelDisc.Location = new Point(471, 82);
             labelDisc.Name = "labelDisc";
-            labelDisc.Size = new Size(147, 44);
+            labelDisc.Size = new Size(115, 34);
             labelDisc.TabIndex = 29;
             labelDisc.Text = " para\r\n discapacitado ";
             // 
@@ -477,19 +454,18 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Britannic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(533, 122);
+            label2.Location = new Point(466, 92);
             label2.Name = "label2";
-            label2.Size = new Size(16, 22);
+            label2.Size = new Size(13, 17);
             label2.TabIndex = 30;
             label2.Text = ":";
             // 
             // btnRegresarSS
             // 
             btnRegresarSS.Font = new Font("Britannic Bold", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnRegresarSS.Location = new Point(34, 493);
-            btnRegresarSS.Margin = new Padding(3, 4, 3, 4);
+            btnRegresarSS.Location = new Point(30, 370);
             btnRegresarSS.Name = "btnRegresarSS";
-            btnRegresarSS.Size = new Size(329, 59);
+            btnRegresarSS.Size = new Size(288, 44);
             btnRegresarSS.TabIndex = 31;
             btnRegresarSS.Text = "Regresar";
             btnRegresarSS.UseVisualStyleBackColor = true;
@@ -500,11 +476,11 @@
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(184, 10);
+            label3.Location = new Point(161, 8);
             label3.Name = "label3";
-            label3.Size = new Size(374, 31);
+            label3.Size = new Size(298, 25);
             label3.TabIndex = 32;
-            label3.Text = "BIENEVENIDO A SOMBRA SUR";
+            label3.Text = "BIENEVENIDO A TRIBUNA SUR";
             label3.Click += label3_Click;
             // 
             // label4
@@ -512,9 +488,9 @@
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Britannic Bold", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(182, 61);
+            label4.Location = new Point(159, 46);
             label4.Name = "label4";
-            label4.Size = new Size(376, 19);
+            label4.Size = new Size(307, 16);
             label4.TabIndex = 33;
             label4.Text = "SELECCIONE LOS ASIENTOS QUE DESEA COMPRAR";
             label4.Click += label4_Click;
@@ -523,10 +499,9 @@
             // 
             btncontinuar.DialogResult = DialogResult.OK;
             btncontinuar.Font = new Font("Britannic Bold", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btncontinuar.Location = new Point(369, 493);
-            btncontinuar.Margin = new Padding(3, 4, 3, 4);
+            btncontinuar.Location = new Point(323, 370);
             btncontinuar.Name = "btncontinuar";
-            btncontinuar.Size = new Size(329, 59);
+            btncontinuar.Size = new Size(288, 44);
             btncontinuar.TabIndex = 34;
             btncontinuar.Text = "Continuar";
             btncontinuar.UseVisualStyleBackColor = true;
@@ -536,9 +511,9 @@
             labelfiguralinea.AutoSize = true;
             labelfiguralinea.BackColor = Color.Transparent;
             labelfiguralinea.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelfiguralinea.Location = new Point(87, 157);
+            labelfiguralinea.Location = new Point(76, 118);
             labelfiguralinea.Name = "labelfiguralinea";
-            labelfiguralinea.Size = new Size(560, 31);
+            labelfiguralinea.Size = new Size(441, 25);
             labelfiguralinea.TabIndex = 35;
             labelfiguralinea.Text = "_______________________________________";
             // 
@@ -547,17 +522,17 @@
             label5.AutoSize = true;
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(87, 450);
+            label5.Location = new Point(76, 338);
             label5.Name = "label5";
-            label5.Size = new Size(560, 31);
+            label5.Size = new Size(441, 25);
             label5.TabIndex = 36;
             label5.Text = "_______________________________________";
             // 
             // AsientosTribunaSur
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(735, 572);
+            ClientSize = new Size(643, 429);
             Controls.Add(label5);
             Controls.Add(labelfiguralinea);
             Controls.Add(btncontinuar);
@@ -592,6 +567,7 @@
             Controls.Add(asiento2);
             Controls.Add(asiento1);
             Controls.Add(asiento0);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "AsientosTribunaSur";
             Load += Reservar_Entradas_Load;
             ((System.ComponentModel.ISupportInitialize)fileSystemWatcher1).EndInit();

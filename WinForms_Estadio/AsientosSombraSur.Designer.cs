@@ -39,6 +39,7 @@
             Text = "AsientosSombraSur";
             Load += AsientosSombraSur_Load;
             ResumeLayout(false);
+
         }
 
         #endregion

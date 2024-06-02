@@ -80,12 +80,16 @@ namespace WinForms_Estadio
 
         private void btncontinuar_Click(object sender, EventArgs e)
         {
-
+            AsientosPreferenteNorte asientosPreferenteNorte = new AsientosPreferenteNorte();
+            asientosPreferenteNorte.Show();
+            this.Hide();
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-
+            AsientosSolGeneral asientosSolGeneral = new AsientosSolGeneral();
+            asientosSolGeneral.Show();
+            this.Hide();
         }
 
         private void btntribunasur_Click_1(object sender, EventArgs e)
@@ -108,7 +112,7 @@ namespace WinForms_Estadio
         }
         private void btnpreferentenorte_Click_1(object sender, EventArgs e)
         {
-            AsientosPreferenteNorte asientosPreferenteNorte = new AsientosPreferenteNorte ();
+            AsientosPreferenteNorte asientosPreferenteNorte = new AsientosPreferenteNorte();
             asientosPreferenteNorte.Show();
             this.Hide();
         }
@@ -148,6 +152,41 @@ namespace WinForms_Estadio
         private void labelfiguralinea_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnsombrasur_Click(object sender, EventArgs e)
+        {
+            AsientosSombraSur asientosSombraSur = new AsientosSombraSur();
+            asientosSombraSur.Show();
+            this.Hide();
+        }
+
+        private void btnsombranorte_Click(object sender, EventArgs e)
+        {
+            AsientosSombraNorte asientosSombraNorte = new AsientosSombraNorte();
+            asientosSombraNorte.Show();
+            this.Hide();
+        }
+
+        private void btntribunanorte_Click(object sender, EventArgs e)
+        {
+            AsientosTribunaNorte asientosTribunaNorte = new AsientosTribunaNorte();
+            asientosTribunaNorte.Show();
+            this.Hide();
+        }
+
+        private void btnpreferentesur_Click(object sender, EventArgs e)
+        {
+            AsientosPreferenteSur asientosPreferenteSur = new AsientosPreferenteSur();
+            asientosPreferenteSur.Show();
+            this.Hide();
+        }
+
+        private void btnplateas_Click(object sender, EventArgs e)
+        {
+            AsientosPlatea asientosPlatea = new AsientosPlatea();
+            asientosPlatea.Show();
+            this.Hide();
         }
     }
 }
