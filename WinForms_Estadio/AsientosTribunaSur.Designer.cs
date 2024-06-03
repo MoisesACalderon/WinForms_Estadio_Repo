@@ -505,6 +505,7 @@
             btncontinuar.TabIndex = 34;
             btncontinuar.Text = "Continuar";
             btncontinuar.UseVisualStyleBackColor = true;
+            btncontinuar.Click += btncontinuar_Click;
             // 
             // labelfiguralinea
             // 

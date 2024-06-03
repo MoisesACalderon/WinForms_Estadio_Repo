@@ -170,6 +170,13 @@ namespace WinForms_Estadio
         {
 
         }
+
+        private void btncontinuar_Click(object sender, EventArgs e)
+        {
+            PagoDeEntradas pagoDeEntradas = new PagoDeEntradas();
+            pagoDeEntradas.Show(); 
+            this.Hide();
+        }
     }
 
 }

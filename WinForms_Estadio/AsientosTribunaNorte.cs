@@ -38,12 +38,22 @@ namespace WinForms_Estadio
             button.FlatStyle = FlatStyle.Flat;
             button.FlatAppearance.BorderSize = 0;
         }
-        private void Reservar_Entradas_Load(object sender, EventArgs e)
-        {
 
+        private void btnRegresarSS_Click(object sender, EventArgs e)
+        {
+            menuZonas menuZonas = new menuZonas();
+            menuZonas.Show();
+            this.Hide();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btncontinuar_Click(object sender, EventArgs e)
+        {
+            PagoDeEntradas pagoDeEntradas = new PagoDeEntradas();
+            pagoDeEntradas.Show();
+            this.Hide();
+        }
+
+        private void asiento0_Click(object sender, EventArgs e)
         {
             asiento0.BackColor = Color.YellowGreen;
 
@@ -52,62 +62,73 @@ namespace WinForms_Estadio
         private void asiento1_Click(object sender, EventArgs e)
         {
             asiento1.BackColor = Color.YellowGreen;
-        }
 
+        }
 
         private void asiento2_Click(object sender, EventArgs e)
         {
             asiento2.BackColor = Color.YellowGreen;
+
         }
 
         private void asiento3_Click(object sender, EventArgs e)
         {
             asiento3.BackColor = Color.YellowGreen;
+
         }
 
         private void asiento4_Click(object sender, EventArgs e)
         {
             asiento4.BackColor = Color.YellowGreen;
+
         }
 
         private void asiento5_Click(object sender, EventArgs e)
         {
             asiento5.BackColor = Color.YellowGreen;
+
         }
 
         private void asiento6_Click(object sender, EventArgs e)
         {
             asiento6.BackColor = Color.YellowGreen;
+
         }
 
         private void asiento7_Click(object sender, EventArgs e)
         {
             asiento7.BackColor = Color.YellowGreen;
+
         }
 
         private void asiento8_Click(object sender, EventArgs e)
         {
             asiento8.BackColor = Color.YellowGreen;
+
         }
 
         private void asiento9_Click(object sender, EventArgs e)
         {
             asiento9.BackColor = Color.YellowGreen;
+
         }
 
         private void asiento10_Click(object sender, EventArgs e)
         {
             asiento10.BackColor = Color.YellowGreen;
+
         }
 
         private void asiento11_Click(object sender, EventArgs e)
         {
             asiento11.BackColor = Color.YellowGreen;
+
         }
 
         private void asiento12_Click(object sender, EventArgs e)
         {
             asiento12.BackColor = Color.YellowGreen;
+
         }
 
         private void asiento13_Click(object sender, EventArgs e)
@@ -125,55 +146,32 @@ namespace WinForms_Estadio
         private void asiento15_Click(object sender, EventArgs e)
         {
             asiento15.BackColor = Color.YellowGreen;
+
         }
 
         private void asiento16_Click(object sender, EventArgs e)
         {
             asiento16.BackColor = Color.YellowGreen;
+
         }
 
         private void asiento17_Click(object sender, EventArgs e)
         {
             asiento17.BackColor = Color.YellowGreen;
+
         }
 
         private void asiento18_Click(object sender, EventArgs e)
         {
             asiento18.BackColor = Color.YellowGreen;
+
         }
 
         private void asiento19_Click(object sender, EventArgs e)
         {
             asiento19.BackColor = Color.YellowGreen;
 
-
-        }
-
-        private void btnRegresarSS_Click(object sender, EventArgs e)
-        {
-            menuZonas menuZonas = new menuZonas();
-            menuZonas.Show();
-            this.Hide();
-        }
-
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void AsientosTribunaNorte_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
+
 }
