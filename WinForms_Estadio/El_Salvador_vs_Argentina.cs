@@ -28,7 +28,7 @@ namespace WinForms_Estadio
             btnregresar.BackColor = Colores.MintGreen;
         }
 
-     
+
 
         private void btnregresar_Click(object sender, EventArgs e)
         {
@@ -46,7 +46,7 @@ namespace WinForms_Estadio
             this.Hide();
         }
 
-       
+
         private void RoundButton(Button button, int radio)
         {
             GraphicsPath path = new GraphicsPath();
@@ -75,6 +75,16 @@ namespace WinForms_Estadio
             VerificarEntradas verificarEntradas = new VerificarEntradas();
             verificarEntradas.Show();
             this.Hide();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void El_Salvador_vs_Argentina_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
