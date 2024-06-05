@@ -54,5 +54,12 @@ namespace WinForms_Estadio
         {
 
         }
+
+        private void btncontinuar_Click(object sender, EventArgs e)
+        {
+            ConfirmacionDePago confirmacionDePago = new ConfirmacionDePago();
+            confirmacionDePago.Show();
+            this.Hide();
+        }
     }
 }

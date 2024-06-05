@@ -68,7 +68,7 @@ namespace WinForms_Estadio
 
         private void btnregresar_Click(object sender, EventArgs e)
         {
-            Form1 ventana2 = new Form1();
+            MenuPrincipal ventana2 = new MenuPrincipal();
             ventana2.Show();
 
             this.Hide();

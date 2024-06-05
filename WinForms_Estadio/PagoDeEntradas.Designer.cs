@@ -89,6 +89,7 @@
             btncontinuar.TabIndex = 72;
             btncontinuar.Text = "Continuar";
             btncontinuar.UseVisualStyleBackColor = true;
+            btncontinuar.Click += btncontinuar_Click;
             // 
             // btnRegresarSS
             // 

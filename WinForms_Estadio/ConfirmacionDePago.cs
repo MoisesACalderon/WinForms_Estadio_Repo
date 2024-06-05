@@ -11,42 +11,20 @@ using System.Windows.Forms;
 
 namespace WinForms_Estadio
 {
-    public partial class El_Salvador_vs_Argentina : Form
+    public partial class ConfirmacionDePago : Form
     {
-        public El_Salvador_vs_Argentina()
+        public ConfirmacionDePago()
         {
             InitializeComponent();
+            RoundButton(btnRegresarSS, 20);
+            RoundButton(btncontinuar, 20);
+            RoundButton(btnseguircom, 20);
+            btnRegresarSS.BackColor = Colores.MintGreen;
+            btncontinuar.BackColor = Colores.PeachOrange;
+            btnseguircom.BackColor = Colores.SkyBlue;
 
-            RoundButton(btnverprecios, 20);
-            RoundButton(btncomprarentradas, 20);
-            RoundButton(btnverificarentradas, 20);
-            RoundButton(btnregresar, 20);
-
-            btnverprecios.BackColor = Colores.SalmonPink;
-            btncomprarentradas.BackColor = Colores.PeachOrange;
-            btnverificarentradas.BackColor = Colores.SkyBlue;
-            btnregresar.BackColor = Colores.MintGreen;
         }
 
-     
-
-        private void btnregresar_Click(object sender, EventArgs e)
-        {
-            Reservar_Entradas ventana2 = new Reservar_Entradas();
-            ventana2.Show();
-
-            this.Hide();
-        }
-
-        private void btnverprecios_Click(object sender, EventArgs e)
-        {
-            Ver_Precios ventana2 = new Ver_Precios();
-            ventana2.Show();
-
-            this.Hide();
-        }
-
-       
         private void RoundButton(Button button, int radio)
         {
             GraphicsPath path = new GraphicsPath();
@@ -63,14 +41,21 @@ namespace WinForms_Estadio
             button.FlatAppearance.BorderSize = 0;
         }
 
-        private void btncomprarentradas_Click(object sender, EventArgs e)
+        private void btnRegresarSS_Click(object sender, EventArgs e)
         {
-            menuZonas menuZonas = new menuZonas();
-            menuZonas.Show();
+            MenuPrincipal form1 = new MenuPrincipal();
+            form1.Show();
             this.Hide();
         }
 
-        private void btnverificarentradas_Click(object sender, EventArgs e)
+        private void btnseguircom_Click(object sender, EventArgs e)
+        {
+            El_Salvador_vs_Argentina el_Salvador_Vs_Argentina = new El_Salvador_vs_Argentina();
+            el_Salvador_Vs_Argentina.Show();
+            this.Hide();
+        }
+
+        private void btncontinuar_Click(object sender, EventArgs e)
         {
             VerificarEntradas verificarEntradas = new VerificarEntradas();
             verificarEntradas.Show();
