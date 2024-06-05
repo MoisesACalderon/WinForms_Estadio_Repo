@@ -2,9 +2,9 @@ using System.Drawing.Drawing2D;
 
 namespace WinForms_Estadio
 {
-    public partial class Form1 : Form
+    public partial class MenuPrincipal : Form
     {
-        public Form1()
+        public MenuPrincipal()
         {
             InitializeComponent();
 
